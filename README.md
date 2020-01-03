@@ -11,8 +11,8 @@
         "statusBar.background": "#111518",
         "statusBar.noFolderBackground": "#111518",
         "statusBar.debuggingBackground": "#111518",
-        "editor.background": "#1c1f26", // background editor
-        "tab.activeBackground":"#191c22", // tab-active
+        "editor.background": "#1c1f26", 
+        "tab.activeBackground":"#191c22", 
     },
     "editor.tabSize": 4,
     "editor.insertSpaces": true,
