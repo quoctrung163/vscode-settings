@@ -1,4 +1,4 @@
-### My VS Code Settings
+### My VS Code Settings  :heart:
 
 1. Font -> [Victor Mono](https://github.com/rubjo/victor-mono) 
 2. Theme -> [Ariake Dark](https://marketplace.visualstudio.com/items?itemName=wart.ariake-dark#review-details)
@@ -22,5 +22,6 @@
     "workbench.iconTheme": "vscode-seedling-icon-theme"
 }
 ```
-5.Demo
+5.Demo  :kissing_heart:  :kissing_heart:
+
 ![](https://i.imgur.com/XfnMko8.png)
