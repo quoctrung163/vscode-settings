@@ -28,6 +28,7 @@
 ![](https://i.imgur.com/XfnMko8.png)
 
 #### Version2
+```json
 {
     "editor.fontFamily": "'Operator Mono Lig', monospace",
     "workbench.colorCustomizations": {
@@ -47,4 +48,4 @@
     "editor.formatOnPaste": true,
     "editor.lineHeight": 23
 }
-
+```
