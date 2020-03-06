@@ -49,3 +49,56 @@
     "editor.lineHeight": 23
 }
 ```
+### Version3
+```
+{
+   "editor.fontSize": 16,
+   "editor.fontFamily": "'Operator Mono Lig'", //Operator Mono Lig // Dank Mono // Victor Mono // Ubuntu Mono
+   "workbench.colorCustomizations": {
+      "statusBar.background": "#0d0e0f",
+      "statusBar.noFolderBackground": "#0d0e0f",
+      "statusBar.debuggingBackground": "#0d0e0f",
+      "contrastBorder": "#1A1C231A"
+   },
+   "window.zoomLevel": 0,
+   "editor.fontLigatures": true,
+   "editor.fontWeight": "200",
+   "workbench.iconTheme": "seti",
+   "editor.lineHeight": 30, // 24
+   "editor.insertSpaces": true,
+   "editor.detectIndentation": false,
+   "editor.multiCursorModifier": "ctrlCmd",
+   "editor.formatOnPaste": true,
+   // performance vscode
+   "telemetry.enableTelemetry": false,
+   "files.exclude": {
+      "**/.git": true,
+      "**/.DS_Store": true,
+      "**/.vscode": true,
+      "**/__pycache__": true,
+      "**/.pytest_cache": true,
+      "**/node_modules": true,
+      "node_modules": true,
+      "venv": true,
+      "*.sublime-*": true,
+      "env*": true
+   },
+   "search.exclude": {
+      "**/node_modules": true,
+      "**/bower_components": true,
+      "**/env": true,
+      "**/venv": true
+   },
+   "files.watcherExclude": {
+      "**/.git/objects/**": true,
+      "**/.git/subtree-cache/**": true,
+      "**/node_modules/**": true,
+      "**/env/**": true,
+      "**/venv/**": true,
+      "env-*": true
+   },
+   "workbench.colorTheme": "CodeSandbox Black",
+   "editor.tabSize": 3,
+   "editor.formatOnSave": true
+}
+```
