@@ -50,7 +50,7 @@
 }
 ```
 ### Version3
-```
+```json
 {
    "editor.fontSize": 16,
    "editor.fontFamily": "'Operator Mono Lig'", //Operator Mono Lig // Dank Mono // Victor Mono // Ubuntu Mono
