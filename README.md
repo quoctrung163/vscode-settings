@@ -202,23 +202,23 @@
   "workbench.colorTheme": "CodeSandbox"
 }
 ```
-Extention
-Atom One Dark Theme
-Auto Close Tag
-Babel Javascript
-Beautify css/sass/scss/less
-Better Comment
-Bracket Pair Colorize2
-CodeSandBox theme
-DotENV
-Elm Emmet
-ESLint
-GitLens - Git supercharged
-Live Server
-Markdown Preview Enhanced
-Path Intellisense
-Python
-Python for Vscode
-Seedling Icon Theme
-TSLint
-Vetur
+## Extention
+- Atom One Dark Theme
+- Auto Close Tag
+- Babel Javascript
+- Beautify css/sass/scss/less
+- Better Comment
+- Bracket Pair Colorize2
+- CodeSandBox theme
+- DotENV
+- Elm Emmet
+- ESLint
+- GitLens - Git supercharged
+- Live Server
+- Markdown Preview Enhanced
+- Path Intellisense
+- Python
+- Python for Vscode
+- Seedling Icon Theme
+- TSLint
+- Vetur
