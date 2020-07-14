@@ -108,8 +108,12 @@
 ### Version4
 ```
 {
-  "editor.fontSize": 15.5,
-  "editor.fontFamily": "'Operator Mono Lig'", //Operator Mono Lig // Dank Mono // Victor Mono // Ubuntu Mono
+  "editor.fontSize": 14,
+  "editor.letterSpacing": 0.5,
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "normal",
+  "editor.lineHeight": 26, // 24
+  "editor.fontFamily": "OperatorMonoSSmLig-Light",
   "workbench.colorCustomizations": {
     "statusBar.background": "#0d0e0f",
     "statusBar.noFolderBackground": "#0d0e0f",
@@ -118,6 +122,10 @@
     // change color cursor
     "editorCursor.foreground": "#cccccc"
   },
+  // setting Vibracy
+  "vscode_vibrancy.opacity": 0,
+  "editor.semanticHighlighting.enabled": false,
+  //fase
   // emmet config
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
@@ -132,13 +140,12 @@
   // auto open new tab in vscode
   "workbench.editor.enablePreview": false,
   // disable warning plint
-  "python.pythonPath": "venv/bin/python",
+  "python.pythonPath": "/Users/quoctrung163/opt/miniconda3/envs/tensorflow/bin/python",
   "python.linting.pylintPath": "venv/bin/pylint",
   // Editor Tweak
   "files.eol": "\n",
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
-  "editor.formatOnSave": true,
   "editor.renderWhitespace": "none",
   // TS lint
   "tslint.autoFixOnSave": true,
@@ -164,9 +171,6 @@
   "vetur.format.defaultFormatter.stylus": "stylus-supremacy",
   // System
   "window.zoomLevel": 0,
-  "editor.fontLigatures": true,
-  "editor.fontWeight": "200",
-  "editor.lineHeight": 28, // 24
   "editor.detectIndentation": false,
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.formatOnPaste": true,
@@ -198,8 +202,52 @@
     "**/venv/**": true,
     "env-*": true
   },
+  "editor.semanticTokenColorCustomizations": {
+    "enabled": true
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "terminal.integrated.rendererType": "dom",
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  "terminal.integrated.inheritEnv": false,
+  "files.associations": {
+    "*.extension": "html"
+  },
   "workbench.iconTheme": "vscode-seedling-icon-theme",
-  "workbench.colorTheme": "CodeSandbox"
+  "background.enabled": true,
+  // Default Style BG
+  // "background.style": {
+  //   "content": "''",
+  //   "pointer-events": "none",
+  //   "position": "absolute",
+  //   "z-index": "99999",
+  //   "width": "100%",
+  //   "height": "100%",
+  //   "background-position": "100% 100%",
+  //   "background-repeat": "no-repeat",
+  //   "opacity": 1
+  // },
+  "background.useDefault": true,
+  // "background.style": {
+  //   "content": "''",
+  //   "pointer-events": "none",
+  //   "position": "absolute",
+  //   "z-index": "99999",
+  //   "width": "100%",
+  //   "height": "100%",
+  //   "background-position": "100% 35%",
+  //   "background-repeat": "no-repeat",
+  //   "opacity": 0.2
+  // },
+  "background.customImages": [
+    "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ab07cff4-2b34-45e1-ab53-e8fb9517aa9a/dd9jrsv-809a44fd-d63f-4a80-bdcd-1e532e48dcad.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYWIwN2NmZjQtMmIzNC00NWUxLWFiNTMtZThmYjk1MTdhYTlhXC9kZDlqcnN2LTgwOWE0NGZkLWQ2M2YtNGE4MC1iZGNkLTFlNTMyZTQ4ZGNhZC5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.ncWCy48oZ-qNbVQwReWNaykjE9xr1wXctpP2wpJDdJs",
+    "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ab07cff4-2b34-45e1-ab53-e8fb9517aa9a/dd9jrsv-809a44fd-d63f-4a80-bdcd-1e532e48dcad.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYWIwN2NmZjQtMmIzNC00NWUxLWFiNTMtZThmYjk1MTdhYTlhXC9kZDlqcnN2LTgwOWE0NGZkLWQ2M2YtNGE4MC1iZGNkLTFlNTMyZTQ4ZGNhZC5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.ncWCy48oZ-qNbVQwReWNaykjE9xr1wXctpP2wpJDdJs"
+  ],
+  "workbench.colorTheme": "CodeSandbox",
+  // Decoration color for packages
+  "importCost.smallPackageColor": "#c36e6e",
+  "importCost.mediumPackageColor": "#c36e6e",
+  "importCost.largePackageColor": "#d23b2c",
 }
 ```
 ## Extention
@@ -222,3 +270,4 @@
 - Seedling Icon Theme
 - TSLint
 - Vetur
+- Background Video
