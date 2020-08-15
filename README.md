@@ -1,128 +1,65 @@
 ### My VS Code Settings  :heart:
-
-#### Version1
-1. Font -> [Victor Mono](https://github.com/rubjo/victor-mono) 
-2. Theme -> [Ariake Dark](https://marketplace.visualstudio.com/items?itemName=wart.ariake-dark#review-details)
-3. Icon -> [Seedling Icon Theme](https://marketplace.visualstudio.com/items?itemName=rastikerdar.vscode-seedling-icon-theme)
-4. Setting
-```json
-{ 
-    "workbench.colorTheme": "Ariake Dark",
-    "workbench.colorCustomizations": {
-        "statusBar.background": "#111518",
-        "statusBar.noFolderBackground": "#111518",
-        "statusBar.debuggingBackground": "#111518",
-        "editor.background": "#1c1f26", 
-        "tab.activeBackground":"#191c22", 
-    },
-    "editor.tabSize": 4,
-    "editor.insertSpaces": true,
-    "editor.detectIndentation": false,
-    "editor.fontFamily": "'Victor Mono', monospace",
-    "editor.fontLigatures": true,
-    "workbench.iconTheme": "vscode-seedling-icon-theme"
-}
-```
-5.Demo  :kissing_heart:  :kissing_heart:
-
-![](https://i.imgur.com/XfnMko8.png)
-
-#### Version2
-```json
-{
-    "editor.fontFamily": "'Operator Mono Lig', monospace",
-    "workbench.colorCustomizations": {
-        "statusBar.background": "#0d0e0f",
-        "statusBar.noFolderBackground": "#0d0e0f",
-        "statusBar.debuggingBackground": "#0d0e0f",
-        "contrastBorder": "#1A1C231A"
-    },
-    "window.zoomLevel": 0.8,
-    "editor.fontLigatures": true,
-    "editor.fontWeight": "300",
-    "workbench.iconTheme": "vscode-seedling-icon-theme",
-    "workbench.colorTheme": "CodeSandbox",
-    "editor.fontSize": 15,
-    "atomKeymap.promptV3Features": true,
-    "editor.multiCursorModifier": "ctrlCmd",
-    "editor.formatOnPaste": true,
-    "editor.lineHeight": 23
-}
-```
-### Version3
-```json
-{
-   "editor.fontSize": 16,
-   "editor.fontFamily": "'Operator Mono Lig'", //Operator Mono Lig // Dank Mono // Victor Mono // Ubuntu Mono
-   "workbench.colorCustomizations": {
-      "statusBar.background": "#0d0e0f",
-      "statusBar.noFolderBackground": "#0d0e0f",
-      "statusBar.debuggingBackground": "#0d0e0f",
-      "contrastBorder": "#1A1C231A"
-   },
-   "window.zoomLevel": 0,
-   "editor.fontLigatures": true,
-   "editor.fontWeight": "200",
-   "workbench.iconTheme": "seti",
-   "editor.lineHeight": 30, // 24
-   "editor.insertSpaces": true,
-   "editor.detectIndentation": false,
-   "editor.multiCursorModifier": "ctrlCmd",
-   "editor.formatOnPaste": true,
-   // performance vscode
-   "telemetry.enableTelemetry": false,
-   "files.exclude": {
-      "**/.git": true,
-      "**/.DS_Store": true,
-      "**/.vscode": true,
-      "**/__pycache__": true,
-      "**/.pytest_cache": true,
-      "**/node_modules": true,
-      "node_modules": true,
-      "venv": true,
-      "*.sublime-*": true,
-      "env*": true
-   },
-   "search.exclude": {
-      "**/node_modules": true,
-      "**/bower_components": true,
-      "**/env": true,
-      "**/venv": true
-   },
-   "files.watcherExclude": {
-      "**/.git/objects/**": true,
-      "**/.git/subtree-cache/**": true,
-      "**/node_modules/**": true,
-      "**/env/**": true,
-      "**/venv/**": true,
-      "env-*": true
-   },
-   "workbench.colorTheme": "CodeSandbox Black",
-   "editor.tabSize": 3,
-   "editor.formatOnSave": true
-}
-```
-### Demo
-![](https://i.imgur.com/p9VqswV.png)
-
-### Version4
 ```
 {
   "editor.fontSize": 14,
-  "editor.letterSpacing": 0.5,
+  "editor.letterSpacing": 0.1,
   "editor.fontLigatures": true,
-  "editor.fontWeight": "normal",
-  "editor.lineHeight": 26, // 24
+  "editor.fontWeight": "100",
+  "editor.lineHeight": 28, // 24
   "editor.fontFamily": "OperatorMonoSSmLig-Light",
+  // version normal
+  // "workbench.colorCustomizations": {
+  //   "statusBar.background": "#0d0e0f",
+  //   "statusBar.noFolderBackground": "#0d0e0f",
+  //   "statusBar.debuggingBackground": "#0d0e0f",
+  //   "contrastBorder": "#1A1C231A",
+  //   // change color cursor
+  //   "editorCursor.foreground": "#cccccc"
+  // },
+  // version dark
   "workbench.colorCustomizations": {
+    // "statusBar.background": "#0d0e0f",
+    // "statusBar.noFolderBackground": "#0d0e0f",
+    // "statusBar.debuggingBackground": "#0d0e0f",
+    // "contrastBorder": "#1A1C231A",
     "statusBar.background": "#0d0e0f",
     "statusBar.noFolderBackground": "#0d0e0f",
     "statusBar.debuggingBackground": "#0d0e0f",
     "contrastBorder": "#1A1C231A",
     // change color cursor
-    "editorCursor.foreground": "#cccccc"
+    "editorCursor.foreground": "#cccccc",
+    // change color border highlightBorder
+    "editor.lineHighlightBorder": "#141718",
+    // change theme color
+    "sideBar.background": "#141718",
+    // "sideBarSectionHeader.background": "#ff0000",
+    // "sideBar.border": "#ff0000",
+    // "sideBar.dropBackground": "#ff0000",
+    // "sideBar.foreground": "#fff",
+    // "sideBarTitle.foreground": "#ff0000",
+    // "sideBarSectionHeader.border": "#ff0000",
+    // "sideBarSectionHeader.foreground": "#ff0000",
+    // "minimapSlider.activeBackground": "#ff0000",
+    // "activityBar.activeFocusBorder": "#ff0000",
+    "list.hoverBackground": "#191B1D",
+    "list.activeSelectionBackground": "#191B1D",
+    // "list.activeSelectionForeground": "#ff0000",
+    // "list.highlightForeground": "#ff0000",
+    "list.inactiveSelectionBackground": "#191B1D",
+    //
+    "tab.activeBackground": "#141718",
+    "tab.activeBorder": "#A7A8A8",
+    "tab.unfocusedActiveBorder": "#141718",
+    "tab.inactiveBackground": "#141718",
+    //
+    //
+    "editor.background": "#141718",
+    "terminal.background": "#141718",
+    "panel.background": "#141718",
+    "panelTitle.activeBorder": "#A7A8A8",
+    "activityBar.background": "#141718"
   },
-  // setting Vibracy
+  // setting Vibracy 
   "vscode_vibrancy.opacity": 0,
   "editor.semanticHighlighting.enabled": false,
   //fase
@@ -140,8 +77,7 @@
   // auto open new tab in vscode
   "workbench.editor.enablePreview": false,
   // disable warning plint
-  "python.pythonPath": "/Users/quoctrung163/opt/miniconda3/envs/tensorflow/bin/python",
-  "python.linting.pylintPath": "venv/bin/pylint",
+  // "python.linting.pylintPath": "venv/bin/pylint",
   // Editor Tweak
   "files.eol": "\n",
   "editor.tabSize": 2,
@@ -245,9 +181,17 @@
   ],
   "workbench.colorTheme": "CodeSandbox",
   // Decoration color for packages
-  "importCost.smallPackageColor": "#c36e6e",
-  "importCost.mediumPackageColor": "#c36e6e",
-  "importCost.largePackageColor": "#d23b2c",
+  // "importCost.smallPackageColor": "#c36e6e",
+  // "importCost.mediumPackageColor": "#c36e6e",
+  // "importCost.largePackageColor": "#d23b2c",
+  "python.defaultInterpreterPath": "/Users/quoctrung163/.pyenv/shims/python3",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  /* custom css */
+  "vscode_custom_css.imports": [
+    "file:///Users/quoctrung163/Documents/Design/Vscode/custom.css"
+  ],
+  "vscode_custom_css.policy": true,
 }
 ```
 ## Extention
