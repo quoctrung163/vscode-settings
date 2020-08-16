@@ -2,63 +2,77 @@
 ```
 {
   "editor.fontSize": 14,
-  "editor.letterSpacing": 0.1,
+  "editor.fontFamily": "OperatorMonoSSmLig-Light",
+  "editor.letterSpacing": 0.05,
   "editor.fontLigatures": true,
   "editor.fontWeight": "100",
   "editor.lineHeight": 28, // 24
-  "editor.fontFamily": "OperatorMonoSSmLig-Light",
   // version normal
-  // "workbench.colorCustomizations": {
-  //   "statusBar.background": "#0d0e0f",
-  //   "statusBar.noFolderBackground": "#0d0e0f",
-  //   "statusBar.debuggingBackground": "#0d0e0f",
-  //   "contrastBorder": "#1A1C231A",
-  //   // change color cursor
-  //   "editorCursor.foreground": "#cccccc"
-  // },
-  // version dark
   "workbench.colorCustomizations": {
-    // "statusBar.background": "#0d0e0f",
-    // "statusBar.noFolderBackground": "#0d0e0f",
-    // "statusBar.debuggingBackground": "#0d0e0f",
-    // "contrastBorder": "#1A1C231A",
     "statusBar.background": "#0d0e0f",
     "statusBar.noFolderBackground": "#0d0e0f",
     "statusBar.debuggingBackground": "#0d0e0f",
     "contrastBorder": "#1A1C231A",
     // change color cursor
     "editorCursor.foreground": "#cccccc",
-    // change color border highlightBorder
-    "editor.lineHighlightBorder": "#141718",
-    // change theme color
-    "sideBar.background": "#141718",
-    // "sideBarSectionHeader.background": "#ff0000",
-    // "sideBar.border": "#ff0000",
-    // "sideBar.dropBackground": "#ff0000",
-    // "sideBar.foreground": "#fff",
-    // "sideBarTitle.foreground": "#ff0000",
-    // "sideBarSectionHeader.border": "#ff0000",
-    // "sideBarSectionHeader.foreground": "#ff0000",
-    // "minimapSlider.activeBackground": "#ff0000",
-    // "activityBar.activeFocusBorder": "#ff0000",
-    "list.hoverBackground": "#191B1D",
-    "list.activeSelectionBackground": "#191B1D",
-    // "list.activeSelectionForeground": "#ff0000",
-    // "list.highlightForeground": "#ff0000",
-    "list.inactiveSelectionBackground": "#191B1D",
+    "editor.lineHighlightBorder": "#1C2022",
+    "list.hoverBackground": "#1C2022",
+    "list.activeSelectionBackground": "#1C2022",
+    "list.inactiveSelectionBackground": "#1C2022",
+    // tab
+    "tab.activeBackground": "#1C2022",
+    "tab.unfocusedActiveBorder": "#1C2022",
+    "tab.inactiveBackground": "#1C2022",
+    "tab.border": "#1C2022",
+    "tab.activeBorderTop": "#1C2022",
+    "tab.inactiveModifiedBorder": "#1C2022",
+    "tab.activeBorder": "#A8A9A9",
     //
-    "tab.activeBackground": "#141718",
-    "tab.activeBorder": "#A7A8A8",
-    "tab.unfocusedActiveBorder": "#141718",
-    "tab.inactiveBackground": "#141718",
-    //
-    //
-    "editor.background": "#141718",
-    "terminal.background": "#141718",
-    "panel.background": "#141718",
-    "panelTitle.activeBorder": "#A7A8A8",
-    "activityBar.background": "#141718"
+    "panelTitle.activeBorder": "#A8A9A9",
   },
+  // version dark
+  // "workbench.colorCustomizations": {
+  //   // "statusBar.background": "#0d0e0f",
+  //   // "statusBar.noFolderBackground": "#0d0e0f",
+  //   // "statusBar.debuggingBackground": "#0d0e0f",
+  //   // "contrastBorder": "#1A1C231A",
+  //   "statusBar.background": "#0d0e0f",
+  //   "statusBar.noFolderBackground": "#0d0e0f",
+  //   "statusBar.debuggingBackground": "#0d0e0f",
+  //   "contrastBorder": "#1A1C231A",
+  //   // change color cursor
+  //   "editorCursor.foreground": "#cccccc",
+  //   // change color border highlightBorder
+  //   "editor.lineHighlightBorder": "#141718",
+  //   // change theme color
+  //   "sideBar.background": "#141718",
+  //   // "sideBarSectionHeader.background": "#ff0000",
+  //   // "sideBar.border": "#ff0000",
+  //   // "sideBar.dropBackground": "#ff0000",
+  //   // "sideBar.foreground": "#fff",
+  //   // "sideBarTitle.foreground": "#ff0000",
+  //   // "sideBarSectionHeader.border": "#ff0000",
+  //   // "sideBarSectionHeader.foreground": "#ff0000",
+  //   // "minimapSlider.activeBackground": "#ff0000",
+  //   // "activityBar.activeFocusBorder": "#ff0000",
+  //   "list.hoverBackground": "#191B1D",
+  //   "list.activeSelectionBackground": "#191B1D",
+  //   // "list.activeSelectionForeground": "#ff0000",
+  //   // "list.highlightForeground": "#ff0000",
+  //   "list.inactiveSelectionBackground": "#191B1D",
+  //   //
+  //   "tab.activeBackground": "#141718",
+  //   "tab.activeBorder": "#A7A8A8",
+  //   "tab.unfocusedActiveBorder": "#141718",
+  //   "tab.inactiveBackground": "#141718",
+  //   //
+  //   //
+  //   "editor.background": "#141718",
+  //   "terminal.background": "#141718",
+  //   "panel.background": "#141718",
+  //   "panelTitle.activeBorder": "#A7A8A8",
+  //   "activityBar.background": "#141718"
+  // },
   // setting Vibracy 
   "vscode_vibrancy.opacity": 0,
   "editor.semanticHighlighting.enabled": false,
@@ -212,6 +226,12 @@
 - Python
 - Python for Vscode
 - Seedling Icon Theme
-- TSLint
+- TSLint(deprecated)
 - Vetur
 - Background Video
+- Import Cost
+- Custom CSS and Loader
+- Visual Studio IntelliCode
+- Vibrancy
+- Live Share
+- Custom CSS and Loader
