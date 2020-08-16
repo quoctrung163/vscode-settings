@@ -208,7 +208,15 @@
   "vscode_custom_css.policy": true,
 }
 ```
-## Extention
+### Custom CSS
+``` file:///Users/quoctrung163/Documents/Design/Vscode/custom.css
+/* version normal */
+.tabs-and-actions-container {
+  background-color: #1C2022 !important;
+}
+```
+
+### Extention
 - Atom One Dark Theme
 - Auto Close Tag
 - Babel Javascript
